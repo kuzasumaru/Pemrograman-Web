@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Tugas3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <title>FORM DATA DIRI</title>
+</head>
+
+<body>
+    <h1>FORM PENGISIAN IDENTITAS DIRI</h1><br><br>
+   
+    <h3>Silahkan isikan data diri anda secara lengkap dan dengan data yang valid</h3><br>
+   
+
+    <form method="GET" action="">          <!--Query String untuk menggunakan metode "GET"-->
+        
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" nama="nama" value=""><br>
+        <label for="tlahir">Tanggal Lahir:</label>
+        <input type="text" id="tlahir" nama="tlahir" value=""><br><br>
+        <label for="jkelamin">Jenis Kelamin:</label>
+        <select nama="Jenis Kelamin" id="jkelamin">
+            <option value="Laki-Laki">Laki-Laki</option>
+            <option value="Perempuan">Perempuan</option>
+        </select><br><br>
+
+        <label for="agama">Agama:</label>
+        <select nama="Agama" id="agama">
+            <option value="Kristen Protestan">Kristen Protestan</option>
+            <option value="Katholik">Katholik</option>
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Buddha">Buddha</option>
+            <option value="Konghucu">Konghucu</option>
+        </select><br><br>
+
+        <label for="alamat">Alamat:</label>
+        <textarea id="alamat" nama="alamat" value=""></textarea><br><br>
+        <label for="nik">NIK:</label>
+        <input type="number" id="nik" nama="nik" value=""><br><br>
+        <label for="no">No Handphone:</label>
+        <input type="number" id="no" nama="no" value=""><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" nama="email" value=""><br><br>
+
+        <h3>Silahkan klik tombol submit untuk menyimpan data anda</h3>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>
